@@ -208,11 +208,4 @@ public class Graph<Label> {
             }
         }
     }
-
-    /**
-     *
-     * @return
-     */
-
-
 }

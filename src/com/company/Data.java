@@ -7,7 +7,10 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class Data {
-
+    /**
+     * Construit le graphe des implications à partir d'un fichier de données
+     * @return le graphe d'implication
+     */
     public Graph implicationGraph() {
         Path formulaPath = Paths.get("formule-2-sat.txt");
         List<String> lines = null;
