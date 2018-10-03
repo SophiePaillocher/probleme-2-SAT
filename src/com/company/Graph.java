@@ -156,8 +156,8 @@ public class Graph<Label> {
         result.concat(cardinal + "\n");
         for (int i = 0; i<cardinal;i++) {
             for (Edge e : incidency.get(i)) {
-                result.concat(e.source + " " + e.destination + " "
-                        + e.label.toString() + "\n");
+                result += e.source + " " + e.destination + " "
+                        + e.label.toString() + "\n";
             }
         }
         return result;

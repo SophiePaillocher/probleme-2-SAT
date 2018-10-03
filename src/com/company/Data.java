@@ -21,13 +21,14 @@ public class Data {
         }
         assert lines != null;
         int nombreVariables = Integer.valueOf(lines.get(0));
-        Graph graph = new Graph(nombreVariables*2);
+        Graph graph = new Graph(nombreVariables*2 + 1);
         for (int i = 1 ; i < lines.size() ; i++){
             String[] split = lines.get(i).split(" ");
             int litteral1 = Integer.valueOf(split[0]);
             int litteral2 = Integer.valueOf(split[1]);
-            graph.addArc(-litteral1, litteral2,"");
-            graph.addArc(-litteral2, litteral1, "");
+            //System.out.println(litteral1 + "v" + litteral2);
+            graph.addArc(-litteral1 + nombreVariables , litteral2 + nombreVariables ,"");
+            graph.addArc(-litteral2 + nombreVariables , litteral1 + nombreVariables , "");
         }
         return graph;
     }
