@@ -66,12 +66,7 @@ public class Graph<Label> {
         incidency.get(source).addLast(new Edge(source,dest,label));
     }
 
-    /**
-     *
-     * @param source
-     * @param visited
-     * @param result
-     */
+
     public void innerDfs(int source,
                          ArrayList<Boolean> visited,
                          LinkedList<Integer> result)
@@ -85,11 +80,7 @@ public class Graph<Label> {
         return;
     }
 
-    /**
-     *
-     * @param vertices
-     * @return
-     */
+
     public LinkedList<LinkedList<Integer>>
     fullDfsFromList(LinkedList<Integer> vertices)
     {
@@ -109,10 +100,7 @@ public class Graph<Label> {
 
     }
 
-    /**
-     *
-     * @return
-     */
+
     public LinkedList<LinkedList<Integer>> fullDfs() {
         LinkedList<Integer> vertices = new LinkedList<>();
         for (int i = 0; i < cardinal; i++) {
@@ -121,11 +109,7 @@ public class Graph<Label> {
         return fullDfsFromList(vertices);
     }
 
-    /**
-     *
-     * @param backward
-     * @return
-     */
+
     public LinkedList<LinkedList<Integer>>
     stronglyConnectedComponent(Graph<Label> backward)
     {
@@ -140,17 +124,14 @@ public class Graph<Label> {
     }
 
     /**
-     *
-     * @return
+     * Permet d'obtenir la liste des composantes fortement connexes d'un graphe
+     * @return la liste des composantes fortement connexes
      */
     public LinkedList<LinkedList<Integer>> stronglyConnectedComponent() {
         return this.stronglyConnectedComponent(this.transpose());
     }
 
-    /**
-     *
-     * @return
-     */
+
     public String toString() {
         String result = new String("");
         result.concat(cardinal + "\n");
@@ -164,30 +145,17 @@ public class Graph<Label> {
 
     }
 
-    /**
-     *
-     * @param <Label>
-     * @param <K>
-     */
+
     public interface ArcFunction<Label,K> {
         public K apply(int source, int dest, Label label, K accu);
     }
 
-    /**
-     *
-     * @param <Label>
-     */
+
     public interface ArcConsumer<Label> {
         public void apply(int source, int dest, Label label);
     }
 
-    /**
-     *
-     * @param f
-     * @param init
-     * @param <K>
-     * @return
-     */
+
     public <K> K foldEdges(ArcFunction<Label,K> f, K init) {
         for (LinkedList<Edge> adj : this.incidency) {
             for (Edge e : adj) {
@@ -197,10 +165,7 @@ public class Graph<Label> {
         return init;
     }
 
-    /**
-     *
-     * @param f
-     */
+    
     public void iterEdges(ArcConsumer<Label> f) {
         for (LinkedList<Edge> adj : this.incidency) {
             for (Edge e : adj) {
