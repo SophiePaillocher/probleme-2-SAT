@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b8517c6-f2c2-4cfe-b10d-32824bce9b2f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/formule-2-sat.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/com/company/DataTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/probleme 2-SAT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/probleme 2-SAT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SATProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Graph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="2385">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
             </state>
           </provider>
         </entry>
@@ -65,11 +60,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="probleme-2-sat-insatisf.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="probleme-2-sat-insatisf.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/probleme-2-sat-insatisf.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -88,13 +83,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Graph.java" />
         <option value="$PROJECT_DIR$/formule-2-sat.txt" />
         <option value="$PROJECT_DIR$/Test/com/company/DataTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/Data.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/SATProblem.java" />
         <option value="$PROJECT_DIR$/probleme-2-sat-insatisf.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph.java" />
       </list>
     </option>
   </component>
@@ -241,12 +236,20 @@
       <workItem from="1538551482029" duration="90000" />
       <workItem from="1538551572941" duration="1890000" />
       <workItem from="1538634260827" duration="25000" />
-      <workItem from="1539151323260" duration="5991000" />
+      <workItem from="1539151323260" duration="6279000" />
     </task>
+    <task id="LOCAL-00001" summary="Tp fini !">
+      <created>1539157526729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539157526729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11045000" />
+    <option name="totallyTimeSpent" value="11333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1602" height="853" extended-state="6" />
@@ -261,13 +264,13 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -288,6 +291,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tp fini !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tp fini !" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.base/java/lang/Object.java">
@@ -486,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -519,8 +519,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/probleme-2-sat-insatisf.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
         </state>
       </provider>
     </entry>

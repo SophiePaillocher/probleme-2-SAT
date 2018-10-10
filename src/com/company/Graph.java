@@ -165,7 +165,7 @@ public class Graph<Label> {
         return init;
     }
 
-    
+
     public void iterEdges(ArcConsumer<Label> f) {
         for (LinkedList<Edge> adj : this.incidency) {
             for (Edge e : adj) {
